@@ -6,6 +6,7 @@ function isPalindrome(str) {
     .replace(/[^\w]/g, '');
   return normalizedStr === normalizedStr.split('').reverse().join('');
 }
+
+// Example
 const text = "A man, a plan, a canal, Panamá";
-const is = isPalindrome(text);
-console.log(is); // Output: true
+console.log(isPalindrome(text)); // Output: true

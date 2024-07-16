@@ -13,3 +13,7 @@ function groupAnagrams(strs) {
 
   return Array.from(groups.values());
 }
+
+// Example
+let arrTest= ["eat", "tea", "tan", "ate", "nat", "bat"]
+console.log(groupAnagrams(arrTest)); // Output: [ [ 'eat', 'tea', 'ate' ], [ 'tan', 'nat' ], [ 'bat' ] ]

@@ -22,3 +22,8 @@ function rotateSparseArray(arr, steps) {
   const secondPart = arr.slice(0, actualLength - effectiveSteps);
   return firstPart.concat(secondPart);
 }
+
+// Example:
+let input=[1,null,2,null,3]
+let steps=2
+console.log(rotateSparseArray(input,steps)); // Output: [ null, 2, null, 3, 1 ]
