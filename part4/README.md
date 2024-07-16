@@ -1,27 +1,13 @@
-# How to Run the News API Script
+## Part 4 : Custom API Request
 
-## Prerequisites
-
-- Before running the script, ensure you have Node.js installed on your machine.
-- [Link download](https://nodejs.org/en)
-
-## Run the Script
-
-1.  Clone the Repository
+1.**Install Dependencies**
 
 ```bash
-git clone 
-cd repository-name
+cd part4
+npm install
 ```
 
-2. Install Dependencies
-
-```bash
-npm install axios
-Update API Key
-```
-
-3. Run the Script
+2. **Run the Script**
 
 Execute the script using Node.js:
 
